@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    
+       <!--Iniciamos nuestro menú de la página--> 
+       <nav>
+        <ul class="menu">
+        
+        <li class="logo">
+        <a href="#">
+            <!--Agregar imagen del logo-->
+            <img src="./img/logo.jpg">
+        
+        </a>
+        </li>
+        
+        <li>
+            <a href="./index.html">Inicio</a>
+        </li>
+        
+        <li>
+            <a href="./contactenos.html">Contactenos</a>
+        </li>
+        <li></li>
+        
+        </ul>
+        
+            </nav>
+
+            <div class="container">
+                <h1>AVES DE COLOMBIA</h1>
+
+                <div>
+
+                    <form>
+
+                        <div class="section-flex">
+
+                            <article class="elemnt-form">
+                                <div class="label"></div>
+                                <label for="">Tipo de mensaje</label>
+                            
+                            <select name="Tipo de mensaje" id="Tipo de mensaje">
+                              <option value="">Seleccione una opción</option>
+                              <option value="1">Sugerencia</option>
+                              <option value="2">Aporte económico</option>
+                              <option value="3">Voluntariado</option>
+                              <option value="4">Material de soporte</option>
+                            </select>
+
+                            </article>
+
+                            <article class="elemnt-form">
+                                <div class="label"></div>
+                                <label for="">Nombre</label>
+                        
+                            
+                            <input type="text" name="Nombre" id="Nombre" placeholder="Escribe tu nombre completo">
+
+                            
+                            
+                            </article>
+
+                            <article class="elemnt-form">
+                            <div class="label"></div>
+                            <label for="">E-mail</label>
+                    
+                        
+                        <input type="text" name="E-mail" id="E-mail" placeholder="Escribe tu correo electrónico">
+
+                        
+                            </article>
+
+                            <article class="elemnt-form">
+                            <div class="label"></div>
+                            <label for="">Comentario</label>
+                            
+                                
+                            <textarea name="Comentario" id="Comentario" cols="20" rows="15">
+
+                            </textarea>
+                            
+                                </article>
+
+                            </article>
+
+                            <article class="elemnt-form">
+                            <div class="label"></div>
+                            <label for="">Qué estudias?</label>
+                            
+                            
+                            <input type="checkbox" name="echk1" id="echk1" value="html">HTML
+                            <input type="checkbox" name="echk2" id="echk2" value="css">CSS
+                            <input type="checkbox" name="echk3" id="echk3" value="javascript">JAVASCRIPT
+                                </article>
+
+                            <article class="btn-article">
+                                <button type="submit" onclick="validar ()">Enviar Datos</button>
+
+                                
+                            
+                            </article>
+                        </div>
+
+                    </form>
+                </div>
+
+
+
+            </div>
+
+            <footer>
+
+                <p>Creado por Manuel Varón</p>
+            </footer>
+
+            <script src="./js/javascript.js"></script>
+</body>
+</html>
